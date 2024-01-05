@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --header-font-color: rgb(117, 105, 105);
+    --nav-left-borders: rgb(24, 24, 24);
+    --background-black: #282828;
+    --background-nav: rgb(40, 40, 40);
+    --background-article: #292e38;
+    --background-sections: #181c23;
+    --planeta-geek-celeste: #03fbfa;
+    --planeta-geek-shadow-celeste: #2e6e70;
+    --planeta-geek-celeste-border: #5fe1e8;
+    --red-notifications: #c40d24;
+    --launches-fucsia: #fe009d;
+    --fucsia-shadow: #BF0076;
+    --palid-red: #FF214F;
+    --vivid-red: #cf2e2e;
+    --planeta-geek-yellow: #FBFA03;
+    --planeta-geek-purple: #7E03FB;
+    --purple-shadow: #5F02BC;
+    --planeta-geek-green: #80FB03;
+    --planeta-geek-blue: #0304FB;
+    --planeta-geek-blue-shadow: #0203BC;
+    --ss: 1.2rem;
+    --sm: 1.4rem;
+    --md: 1.5rem;
+    --lg: 1.8rem;
+    --xlg: 2.2rem
+}
+
+body {
+    background-color: var(--background-sections);
+}
+
+header {
+    width: 100%;
+    height: 6rem;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+header img {
+    width: 13.62rem;
+}
+
+/* TENDENCIAS */
+
+.trend-1__container {
+    width: 30rem;
+    min-height: 59rem;
+    background-color: var(--background-article);
+    margin: 4rem auto;
+    padding-bottom: 1rem;
+}
+
+.trend-1 .img1-container {
+    width: 30rem;
+    height: 20rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trend-1 .img1-container img {
+    width: 100%;
+    /* height: 20rem; */
+    transition: 0.8s ease all;
+}
+
+.trend-1 .img1-container img:hover {
+    width: 120%;
+    /* height: 30rem; */
+}
+
+
+.trend-1 h3 {
+    width: 100%;
+    /* color: var(--planeta-geek-celeste-border); */
+    margin-top: 1rem;
+    font-size: var(--lg);
+    padding: 1rem 2rem 0;
+}
+
+.trend-1 p {
+    width: 100%;
+    color: var(--white);
+    font-weight: 300;
+    margin-top: 1rem;
+    font-size: var(--md);
+    padding: 0 2rem 0;
+    line-height: 2.5rem;
+}
+
+.trend-1 a {
+    width: 100%;
+    /* color: var(--planeta-geek-celeste-border); */
+    text-decoration: none;
+}
