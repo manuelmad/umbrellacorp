@@ -1,3 +1,19 @@
+.who-articles__container, .who-1__container, .who-1 .img1-container  {
+    width: 69rem;
+}
+
+.who-articles__container, .tournaments-articles__container {
+    margin: 1rem auto 0;
+}
+
+.who-1 .img1-container {
+    height: 46rem;
+}
+
+.who-1__container {
+    min-height: 80rem;
+}
+
 .trending-articles__container, .gamer-tips__container, .launches-articles__container, .notifications-articles__container, .us-articles__container/*, .tournaments-articles__container*/,.apps-articles__container {
     width: 69rem;
     display: grid;

@@ -94,7 +94,7 @@ header a svg:hover {
 }
 
 .header-contact-info .right a {
-    color: var(--planeta-geek-shadow-celeste);
+    color: var(--vivid-red);
 }
 
 /* main nav bar */
@@ -118,9 +118,10 @@ header a svg:hover {
 } */
 
 .main-nav-bar img {
-    width: 13.56rem;
+    width: 6.59rem;
     height: 6rem;
     margin: auto auto;
+    margin-left: 1rem;
 }
 
 .nav-bar-container {
@@ -160,16 +161,16 @@ header a svg:hover {
 }
 
 .nav-bar-container .main-menu ul li a:hover {
-    color: var(--planeta-geek-celeste);
+    color: var(--red-notifications);
 }
 
 #home {
-    color: var(--planeta-geek-celeste);
+    color: var(--red-notifications);
 }
 
 .nav-bar-container svg {
     color: var(--white);
-    border: 0.1rem solid var(--planeta-geek-celeste);
+    border: 0.1rem solid var(--red-notifications);
     border-radius: 0.3rem;
 }
 
@@ -211,11 +212,11 @@ nav #dropdown-list {
 }
 
 #dropdown-list li a:hover {
-    color: var(--planeta-geek-celeste);
+    color: var(--red-notifications);
 }
 
 #dropdown-list #home2 {
-    color: var(--planeta-geek-celeste);
+    color: var(--red-notifications);
 }
 
 
@@ -259,7 +260,7 @@ nav #dropdown-list {
     height: 100%;
 }
 
-.trends, .gamer-tips, .launches, .notifications, .us, .tournaments, .apps {
+.who, .trends, .gamer-tips, .launches, .notifications, .us, .tournaments, .apps {
     background-color: var(--background-sections);
     width: 100%;
     padding: 5rem 1rem 2rem;
@@ -271,6 +272,90 @@ nav #dropdown-list {
     display: flex;
     height: 6rem;
     padding: 0 2rem 0;
+}
+
+/* QUIÉNES SOMOS */
+
+.who .title-container h2 {
+    background-color: var(--red-notifications);
+    color: var(--white);
+    font-size: var(--xlg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem 0;
+    /* position: relative; */
+}
+
+.who .title-container h2:before {
+    top: 50;
+    left: 2.5rem;
+    display: inline-block;
+    content: "";
+    width: 0.8rem;
+    height: 6rem;
+    transform: skewX(-10deg);
+    background: var(--palid-red);
+    position: absolute;
+    border-right: 3px solid var(--nav-left-borders);
+}
+
+.who .title-container p {
+    flex-grow: 1;
+    border-bottom: 0.3rem solid var(--red-notifications);
+}
+
+
+.who-1__container {
+    width: 30rem;
+    min-height: 45rem;
+    background-color: var(--background-article);
+    margin: 4rem auto 0;
+    padding-bottom: 1rem;
+}
+
+.who-1 .img1-container {
+    width: 30rem;
+    height: 20rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.who-1 .img1-container img {
+    width: 100%;
+    /* height: 20rem; */
+    transition: 0.8s ease all;
+}
+
+.who-1 .img1-container img:hover {
+    width: 120%;
+    /* height: 30rem; */
+}
+
+.who-1 h3 {
+    width: 100%;
+    color: var(--red-notifications);
+    margin-top: 1rem;
+    font-size: var(--lg);
+    padding: 1rem 2rem 0;
+}
+
+.who-1 p {
+    width: 100%;
+    color: var(--white);
+    font-weight: 300;
+    margin-top: 1rem;
+    font-size: var(--md);
+    padding: 0 2rem 0;
+    line-height: 2.5rem;
+}
+
+.who-1 a {
+    width: 100%;
+    color: var(--red-notifications);
+    text-decoration: none;
 }
 
 /* TENDENCIAS */
@@ -1109,14 +1194,15 @@ footer section {
 }
 
 .footer-logo-container img {
-    width: 13.56rem;
+    width: 6.59rem;
     height: 6rem;
     margin: auto auto;
+    margin-left: 1rem;
 }
 
 .social-media-footer h2 {
     width: 100%;
-    color: var(--planeta-geek-celeste);
+    color: var(--red-notifications);
     margin-top: 1rem;
     font-size: var(--lg);
     padding: 1rem 2rem 0;
@@ -1134,7 +1220,7 @@ footer section {
 
 .social-media-footer a {
     width: 100%;
-    color: var(--planeta-geek-shadow-celeste);
+    color: var(--palid-red);
     text-decoration: none;
 }
 
@@ -1148,7 +1234,7 @@ footer section {
     height: 3rem;
     background-color: var(--white);
     box-shadow: rgba(228, 200, 200, 0.5) 0 0 15px 0;
-    color: var(--planeta-geek-blue-shadow);
+    color: var(--vivid-red);
     margin-right: 1rem;
     border-radius: 0.3rem;
     /* text-align: center; */
@@ -1158,7 +1244,7 @@ footer section {
 }
 
 .social-media-logos a:hover {
-    background-color: var(--planeta-geek-blue-shadow);
+    background-color: var(--vivid-red);
     color: var(--white);
 }
 
@@ -1175,8 +1261,8 @@ footer section {
 .footer-menu h2 {
     width: 16rem;
     height: 3rem;
-    background-color: var(--planeta-geek-celeste);
-    color: var(--black);
+    background-color: var(--red-notifications);
+    color: var(--white);
     font-size: var(--xlg);
     display: flex;
     justify-content: center;
@@ -1194,7 +1280,7 @@ footer section {
     width: 0.8rem;
     height: 100%;
     transform: skewX(-10deg);
-    background: var(--planeta-geek-shadow-celeste);
+    background: var(--palid-red);
     position: absolute;
     border-right: 3px solid var(--nav-left-borders);
     /* transition: 400ms ease; */
@@ -1218,7 +1304,7 @@ footer section {
 
 #footer-list li a {
     text-decoration: none;
-    color: var(--planeta-geek-celeste-border);
+    color: var(--red-notifications);
     font-size: var(--md);
 }
 
@@ -1248,7 +1334,7 @@ footer section {
 }
 
 .creator a:hover {
-    color: var(--planeta-geek-celeste);
+    color: var(--red-notifications);
 }
 
 /* ANIMACIONES */

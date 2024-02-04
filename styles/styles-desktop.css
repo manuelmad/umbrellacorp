@@ -32,7 +32,7 @@ header {
     width: 13px;
     height: 100%;
     transform: skewX(-10deg);
-    background: var(--planeta-geek-shadow-celeste);
+    background: var(--palid-red);
     position: absolute;
     border-right: 3px solid #181818;
     /* transition: 400ms ease; */
@@ -232,11 +232,12 @@ header {
     min-height: 80rem;
 }
 
-.trends, .gamer-tips, .launches, .notifications, .us, .tournaments, .apps {
+.who, .trends, .gamer-tips, .launches, .notifications, .us, .tournaments, .apps {
     padding-left: 7rem;
     padding-right: 7rem;
 }
 
+.who .title-container h2:before,
 .trends .title-container h2:before,
 .gamer-tips .title-container h2:before,
 .launches .title-container h2:before,
@@ -248,6 +249,10 @@ header {
 .trending-articles__container, .gamer-tips__container, .launches-articles__container, .notifications-articles__container, .us-articles__container/*, .tournaments-articles__container*/, .apps-articles__container {
     width: 100rem;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+.who-articles__container, .tournaments-articles__container {
+    width: 100rem;
 }
 
 .social-media-logos a {
