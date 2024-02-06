@@ -1,54 +1,43 @@
 export const trends = [
     {
         type: "trend",
-        imgUrl: './styles/assets/imgs/trend1.png',
-        description: `
-            <h3>¡18 AÑOS DESPUÉS, JENNIFER GARNER REGRESA COMO ELEKTRA PARA DEADPOOL 3!</h3>
-            <p>¡Esto no lo vi venir! 😳</p>
-            <p>Según THR, la actriz Jennifer Garner regresará como Elektra para la película de Deadpool 3. 😱</p>
-            <p>Garner interpretó este personaje en la película de Daredevil de 2003 y luego en 2005 en su película en solitario.</p>
-            <p>Según rumores, la aparición de esta versión de Elektra será un cameo de unos cuantos minutos dentro de la película.
-            </p>
-        `,
+        imgUrl: './styles/assets/imgs/nintendo-3ds.jpg',
         short: `
-            <h3>¡18 AÑOS DESPUÉS, JENNIFER GARNER REGRESA COMO ELEKTRA PARA DEADPOOL 3!</h3>
-            <p>¡Esto no lo vi venir! 😳</p>
-            <p><a id="link_trend1" href="../details/details.html">Leer más...</a>
+            <h3>¡LA MÍTICA NINTENDO 3DS!</h3>
+            <p>Nintendo 3DS es tu puerta de acceso portátil a un mundo de increíbles juegos y servicios.</p>
+            <p>Te permite conectar con amigos y la comunidad global de Nintendo, y te ofrece novedosas opciones para compartir contenidos.</p>
+            <p>Lleva la experiencia de juego portátil a una nueva dimensión, con Nintendo 3DS.</p>
         `
     },
     {
         type: "trend",
-        imgUrl: './styles/assets/imgs/trend2.png',
-        description: `
-            <h3>¡"NARUTO" REGRESA CON UN ANIMÉ ESPECIAL EN CONMEMORACIÓN DE SU 20° ANIVERSARIO!</h3>
-            <p>¿¡El regreso de Naruto Uzumaki!? 🤯🍿</p>
-            <p>En octubre del 2022, "Naruto" celebró su vigésimo aniversario; sin embargo, no fue hasta el 2023 que empezaron a caer los especiales. 👀🤔</p>
-            <p>En marzo de este año se anunció que "Naruto" iba a volver a la pantalla chica con cuatro nuevos episodios especiales, lOs cuales se conectarán con "Naruto" y "Naruto Shippuden" 💢👏🏻</p>
-            <p>Estos nuevos capítulos se estrenarán el próximo 3 de septiembre, pero SOLAMENTE en Japón</p>
-            <p>Aún faltan detalles que confirmen de qué manera llegarán los episodios, si semanalmente o todos los cuatro episodios de una vez. 🎞🤔</p>
-            <p>Asimismo, se estrenará un nuevo manga spin off sobre Minato Namikaze, padre de Naruto y cuarto Hokage. 👏🏻🚨</p>
-            <p>¿Qué te pareció esta noticia? ¿Emocionado/a? 👇🏻💬</p>
-        `,
+        imgUrl: './styles/assets/imgs/psp.webp',
         short: `
-            <h3>¡"NARUTO" REGRESA CON UN ANIMÉ ESPECIAL EN CONMEMORACIÓN DE SU 20° ANIVERSARIO!</h3>
-            <p>¿¡El regreso de Naruto Uzumaki!? 🤯🍿</p>
-            <p><a id="link_trend2" href="../details/details.html">Leer más...</a>
+            <h3>¡PlayStation Portable: La más exitosa consola portatil de Sony!</h3>
+            <p>Fue un nuevo estilo de videoconsolas portátiles. Una invitación no sólo a disfrutar de juegos inmersivos con gráficos 3D sino también de entretenimiento con video y música de una calidad excepcional.</p>
+            <p>La comodidad era primordial en el diseño compacto y simbólico de la PSP y esto la hizo bastante popular.</p>
+            <p>El cuerpo curvo cabe fácilmente en las manos de varios jugadores. En el panel frontal, los controles están cuidadosamente organizados para permitir a los usuarios centrarse en el contenido del video.</p>
         `
     },
     {
         type: "trend",
-        imgUrl: './styles/assets/imgs/trend3.png',
-        description: `
-            <h3>¡SMOKE, RAIN, CYRAX, SEKTOR Y FROST SE ANUNCIA COMO NUEVOS PELEADORES EN EL MK1!</h3>
-            <p>¡Tenemos nuevos peleadores para el MK1! 💀</p>
-            <p>Smoke, Rain, Cyrax, Sektor y Frost se anunciaron como nuevos personajes jugables en el juego que llegará el 19 de septiembre de este año.</p>
-            <p>Ellos fueron revelados hoy durante un direct y en el trailer hicieron especial énfasis en Smoke, quien tendrá una hermandad junto con Scorpion y Sub-Zero. 👀</p>
-            <p>¿Cuál de estos personajes te gustó más de ver?</p>
-        `,
+        imgUrl: './styles/assets/imgs/ps3-3models.webp',
         short: `
-            <h3>¡SMOKE, RAIN, CYRAX, SEKTOR Y FROST SE ANUNCIA COMO NUEVOS PELEADORES EN EL MK1!</h3>
-            <p>¡Tenemos nuevos peleadores para el MK1! 💀</p>
-            <p><a id="link_trend3" href="../details/details.html">Leer más...</a>
+            <h3>¡PlayStation 3: Versatil y confiable!</h3>
+            <p>PlayStation 3 es la tercera videoconsola de sobremesa producida por Sony Computer Entertainment.</p>
+            <p>Cuenta con sólidas capacidades multimedia, conectividad con la PlayStation Portable y PlayStation Vita y su principal formato de disco óptico de alta definición, Blu-ray Disc, como su principal medio de almacenamiento.</p>
+            <p>La PS3 también dio soporte al Blu-ray perfil 2.0, gracias a ello se pudo interactuar por internet con contenidos extras de películas y juegos.</p>
+        `,
+    },
+    {
+        type: "trend",
+        imgUrl: './styles/assets/imgs/ps4-2models.jpg',
+        short: `
+            <h3>¡PlayStation 4: Potente y aún vigente!</h3>
+            <p>La consola PS4 ofrece una potencia de juego impresionante, entretenimiento increíble y tecnología de HDR intenso.</p>
+            <p>Almacena tus juegos, aplicaciones, capturas de pantalla y videos.</p>
+            <p>Descubre las más populares y mejores películas, programas de TV, servicios de transmisión de video y toda la música del mundo desde la pantalla de inicio de tu PS4.</p>
+            <p>La libertad de jugar, compartir y socializar con millones de jugadores de todo el mundo. Transmite juegos desde tu PS4 a cualquier dispositivo iOS o Android compatible, PC, Mac y PlayStation Vita mediante la red Wi-Fi doméstica, y disfruta la libertad desde tu TV.</p>
         `,
     }
 ];

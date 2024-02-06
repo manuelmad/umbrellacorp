@@ -17,9 +17,6 @@ function interactiveMenu() {
 
 // CÓDIGO PARA LLENAR LOS CONTENEDORES DE HTML CON LAS NOTICIAS
 
-// Variable que guardará la noticia a ver en detalle
-let detailedNew;
-
 // TENDENCIAS
 import { trends } from "./database.js";
 
@@ -27,38 +24,17 @@ import { trends } from "./database.js";
 document.getElementById("description1").innerHTML = trends[0].short;
 document.getElementById("trend1_img").innerHTML = `<img src="${trends[0].imgUrl}">`;
 
-// Evento para que el link "Leer más..." guarde en localStorage la noticia a ver en detalle
-let linkTrend1 = document.getElementById("link_trend1");
-
-linkTrend1.addEventListener('click', ()=> {
-    detailedNew = trends[0];
-    let string = JSON.stringify(detailedNew);
-    localStorage.setItem("detailedNew", string);
-});
-
 /* 2 */
 document.getElementById("description2").innerHTML = trends[1].short;
 document.getElementById("trend2_img").innerHTML = `<img src="${trends[1].imgUrl}">`;
-
-let linkTrend2 = document.getElementById("link_trend2");
-
-linkTrend2.addEventListener('click', ()=> {
-    detailedNew = trends[1];
-    let string = JSON.stringify(detailedNew);
-    localStorage.setItem("detailedNew", string);
-});
 
 /* 3 */
 document.getElementById("description3").innerHTML = trends[2].short;
 document.getElementById("trend3_img").innerHTML = `<img src="${trends[2].imgUrl}">`;
 
-let linkTrend3 = document.getElementById("link_trend3");
-
-linkTrend3.addEventListener('click', ()=> {
-    detailedNew = trends[2];
-    let string = JSON.stringify(detailedNew);
-    localStorage.setItem("detailedNew", string);
-});
+/* 4 */
+document.getElementById("description4").innerHTML = trends[3].short;
+document.getElementById("trend4_img").innerHTML = `<img src="${trends[3].imgUrl}">`;
 
 
 // GAMER TIPS
@@ -69,37 +45,37 @@ document.getElementById("tip1_description").innerHTML = gamerTips[0].short;
 document.getElementById("tip1_img").innerHTML = `<img src="${gamerTips[0].imgUrl}">`;
 
 // Evento para que el link "Leer más..." guarde en localStorage la noticia a ver en detalle
-let linkTip1 = document.getElementById("link_tip1");
+// let linkTip1 = document.getElementById("link_tip1");
 
-linkTip1.addEventListener('click', ()=> {
-    detailedNew = gamerTips[0];
-    let string = JSON.stringify(detailedNew);
-    localStorage.setItem("detailedNew", string);
-});
+// linkTip1.addEventListener('click', ()=> {
+//     detailedNew = gamerTips[0];
+//     let string = JSON.stringify(detailedNew);
+//     localStorage.setItem("detailedNew", string);
+// });
 
 /* 2 */
 document.getElementById("tip2_description").innerHTML = gamerTips[1].short;
 document.getElementById("tip2_img").innerHTML = `<img src="${gamerTips[1].imgUrl}">`;
 
-let linkTip2 = document.getElementById("link_tip2");
+// let linkTip2 = document.getElementById("link_tip2");
 
-linkTip2.addEventListener('click', ()=> {
-    detailedNew = gamerTips[1];
-    let string = JSON.stringify(detailedNew);
-    localStorage.setItem("detailedNew", string);
-});
+// linkTip2.addEventListener('click', ()=> {
+//     detailedNew = gamerTips[1];
+//     let string = JSON.stringify(detailedNew);
+//     localStorage.setItem("detailedNew", string);
+// });
 
 /* 3 */
 document.getElementById("tip3_description").innerHTML = gamerTips[2].short;
 document.getElementById("tip3_img").innerHTML = `<img src="${gamerTips[2].imgUrl}">`;
 
-let linkTip3 = document.getElementById("link_tip3");
+// let linkTip3 = document.getElementById("link_tip3");
 
-linkTip3.addEventListener('click', ()=> {
-    detailedNew = gamerTips[2];
-    let string = JSON.stringify(detailedNew);
-    localStorage.setItem("detailedNew", string);
-});
+// linkTip3.addEventListener('click', ()=> {
+//     detailedNew = gamerTips[2];
+//     let string = JSON.stringify(detailedNew);
+//     localStorage.setItem("detailedNew", string);
+// });
 
 
 // LANZAMIENTOS
@@ -110,37 +86,37 @@ document.getElementById("launch1_description").innerHTML = launches[0].short;
 document.getElementById("launch1_img").innerHTML = `<img src="${launches[0].imgUrl}">`;
 
 // Evento para que el link "Leer más..." guarde en localStorage la noticia a ver en detalle
-let linkLaunch1 = document.getElementById("link_launch1");
+// let linkLaunch1 = document.getElementById("link_launch1");
 
-linkLaunch1.addEventListener('click', ()=> {
-    detailedNew = launches[0];
-    let string = JSON.stringify(detailedNew);
-    localStorage.setItem("detailedNew", string);
-});
+// linkLaunch1.addEventListener('click', ()=> {
+//     detailedNew = launches[0];
+//     let string = JSON.stringify(detailedNew);
+//     localStorage.setItem("detailedNew", string);
+// });
 
 /* 2 */
 document.getElementById("launch2_description").innerHTML = launches[1].short;
 document.getElementById("launch2_img").innerHTML = `<img src="${launches[1].imgUrl}">`;
 
-let linkLaunch2 = document.getElementById("link_launch2");
+// let linkLaunch2 = document.getElementById("link_launch2");
 
-linkLaunch2.addEventListener('click', ()=> {
-    detailedNew = launches[1];
-    let string = JSON.stringify(detailedNew);
-    localStorage.setItem("detailedNew", string);
-});
+// linkLaunch2.addEventListener('click', ()=> {
+//     detailedNew = launches[1];
+//     let string = JSON.stringify(detailedNew);
+//     localStorage.setItem("detailedNew", string);
+// });
 
 /* 3 */
 document.getElementById("launch3_description").innerHTML = launches[2].short;
 document.getElementById("launch3_img").innerHTML = `<img src="${launches[2].imgUrl}">`;
 
-let linkLaunch3 = document.getElementById("link_launch3");
+// let linkLaunch3 = document.getElementById("link_launch3");
 
-linkLaunch3.addEventListener('click', ()=> {
-    detailedNew = launches[2];
-    let string = JSON.stringify(detailedNew);
-    localStorage.setItem("detailedNew", string);
-});
+// linkLaunch3.addEventListener('click', ()=> {
+//     detailedNew = launches[2];
+//     let string = JSON.stringify(detailedNew);
+//     localStorage.setItem("detailedNew", string);
+// });
 
 
 // NOTIFICACIONES
@@ -151,37 +127,37 @@ document.getElementById("notification1_description").innerHTML = notifications[0
 document.getElementById("notification1_img").innerHTML = `<img src="${notifications[0].imgUrl}">`;
 
 // Evento para que el link "Leer más..." guarde en localStorage la noticia a ver en detalle
-let linkNotification1 = document.getElementById("link_notification1");
+// let linkNotification1 = document.getElementById("link_notification1");
 
-linkNotification1.addEventListener('click', ()=> {
-    detailedNew = notifications[0];
-    let string = JSON.stringify(detailedNew);
-    localStorage.setItem("detailedNew", string);
-});
+// linkNotification1.addEventListener('click', ()=> {
+//     detailedNew = notifications[0];
+//     let string = JSON.stringify(detailedNew);
+//     localStorage.setItem("detailedNew", string);
+// });
 
 /* 2 */
 document.getElementById("notification2_description").innerHTML = notifications[1].short;
 document.getElementById("notification2_img").innerHTML = `<img src="${notifications[1].imgUrl}">`;
 
-let linkNotification2 = document.getElementById("link_notification2");
+// let linkNotification2 = document.getElementById("link_notification2");
 
-linkNotification2.addEventListener('click', ()=> {
-    detailedNew = notifications[1];
-    let string = JSON.stringify(detailedNew);
-    localStorage.setItem("detailedNew", string);
-});
+// linkNotification2.addEventListener('click', ()=> {
+//     detailedNew = notifications[1];
+//     let string = JSON.stringify(detailedNew);
+//     localStorage.setItem("detailedNew", string);
+// });
 
 /* 3 */
 document.getElementById("notification3_description").innerHTML = notifications[2].short;
 document.getElementById("notification3_img").innerHTML = `<img src="${notifications[2].imgUrl}">`;
 
-let linkNotification3 = document.getElementById("link_notification3");
+// let linkNotification3 = document.getElementById("link_notification3");
 
-linkNotification3.addEventListener('click', ()=> {
-    detailedNew = notifications[2];
-    let string = JSON.stringify(detailedNew);
-    localStorage.setItem("detailedNew", string);
-});
+// linkNotification3.addEventListener('click', ()=> {
+//     detailedNew = notifications[2];
+//     let string = JSON.stringify(detailedNew);
+//     localStorage.setItem("detailedNew", string);
+// });
 
 
 // NOSOTROS
