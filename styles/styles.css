@@ -166,7 +166,7 @@ header a svg:hover {
 }
 
 #home {
-    color: var(--red-notifications);
+    color: var(--palid-red);
 }
 
 .nav-bar-container svg {
@@ -217,7 +217,7 @@ nav #dropdown-list {
 }
 
 #dropdown-list #home2 {
-    color: var(--red-notifications);
+    color: var(--palid-red);
 }
 
 

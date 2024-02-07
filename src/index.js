@@ -8,7 +8,7 @@ dropdown_menu.style.display = 'none';
 function interactiveMenu() {
     if(dropdown_menu.style.display == 'none') {
         dropdown_menu.style.display = 'block';
-        menu_icon.style.color = '#03fbfa';
+        menu_icon.style.color = '#FF214F';
     } else if(dropdown_menu.style.display == 'block') {
         dropdown_menu.style.display = 'none';
         menu_icon.style.color = '#ffffff';
