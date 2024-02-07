@@ -29,6 +29,7 @@ html {
     --planeta-geek-yellow: #FBFA03;
     --planeta-geek-yellow-shadow: #9a9a03;
     --planeta-geek-purple: #7E03FB;
+    --light-purple: #a54ffa;
     --purple-shadow: #5F02BC;
     --planeta-geek-green: #80FB03;
     --planeta-geek-green-shadow: #478d01;
@@ -336,7 +337,7 @@ nav #dropdown-list {
 
 .who-1 h3 {
     width: 100%;
-    color: var(--red-notifications);
+    color: var(--palid-red);
     margin-top: 1rem;
     font-size: var(--lg);
     padding: 1rem 2rem 0;
@@ -350,12 +351,6 @@ nav #dropdown-list {
     font-size: var(--md);
     padding: 0 2rem 0;
     line-height: 2.5rem;
-}
-
-.who-1 a {
-    width: 100%;
-    color: var(--red-notifications);
-    text-decoration: none;
 }
 
 /* TENDENCIAS */
@@ -537,6 +532,17 @@ nav #dropdown-list {
     border-bottom: 0.3rem solid var(--planeta-geek-purple);
 }
 
+.gamer-tips .intro-container {
+    color: var(--white);
+    width: 100%;
+    color: var(--white);
+    font-weight: 300;
+    margin-top: 1rem;
+    font-size: var(--md);
+    padding: 0 2rem 0;
+    line-height: 2.5rem;
+}
+
 .tip-1__container, .tip-2__container, .tip-3__container {
     width: 30rem;
     min-height: 45rem;
@@ -607,7 +613,7 @@ nav #dropdown-list {
 
 .tip-1 h3, .tip-2 h3, .tip-3 h3  {
     width: 100%;
-    color: var(--purple-shadow);
+    color: var(--light-purple);
     margin-top: 1rem;
     font-size: var(--lg);
     padding: 1rem 2rem 0;
@@ -621,12 +627,6 @@ nav #dropdown-list {
     font-size: var(--md);
     padding: 0 2rem 0;
     line-height: 2.5rem;
-}
-
-.tip-1 a, .tip-2 a, .tip-3 a {
-    width: 100%;
-    color: var(--purple-shadow);
-    text-decoration: none;
 }
 
 
@@ -730,7 +730,7 @@ nav #dropdown-list {
 
 .launch-1 h3, .launch-2 h3, .launch-3 h3 {
     width: 100%;
-    color: var(--fucsia-shadow);
+    color: var(--launches-fucsia);
     margin-top: 1rem;
     font-size: var(--lg);
     padding: 1rem 2rem 0;

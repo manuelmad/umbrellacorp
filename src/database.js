@@ -3,7 +3,7 @@ export const trends = [
         type: "trend",
         imgUrl: './styles/assets/imgs/nintendo-3ds.jpg',
         short: `
-            <h3>¡LA MÍTICA NINTENDO 3DS!</h3>
+            <h3>¡La mítica Nintendo 3DS!</h3>
             <p>Nintendo 3DS es tu puerta de acceso portátil a un mundo de increíbles juegos y servicios.</p>
             <p>Te permite conectar con amigos y la comunidad global de Nintendo, y te ofrece novedosas opciones para compartir contenidos.</p>
             <p>Lleva la experiencia de juego portátil a una nueva dimensión, con Nintendo 3DS.</p>
@@ -45,50 +45,26 @@ export const trends = [
 export const gamerTips = [
     {
         type: "tip",
-        imgUrl: './styles/assets/imgs/tip1.png',
-        description: `
-            <h3>¿Sabías que hubo un videojuego donde Spider-Man se transformaba en Batman?🤔🧐</h3>
-            <p>En esta sección de Gamer Tips hablaremos acerca de "The Revenge of Shinobi". Un videojuego de acción y plataformas que fue lanzado en diciembre de 1989. 🎮🔙</p>
-            <p>Capaz muchos de ustedes no conocen este videojuego, pero la verdad es que nos brindó uno de los crossovers más locos en la historia de los videojuegos. 💥👀</p>
-            <p>Cuando nos tocaba enfrentar al Jefe de la zona del barrio chino, este mismo era Spider-Man y además de esto, al derrotarlo se transformaba automáticamente en Batman. 🤯🤯</p>
-            <p>Además de esto, dos personajes icónicos también dijeron presente: Rambo, Godzila, entre otros. 🤩🙌</p>
-            <p>¿Qué te parece este Crossover? Dejános tu opinión en los comentarios ⬇️📪 aquí: <a href="https://www.instagram.com/p/CsWcNmRLdr_/" target="_blank">Instagram</a></p>
-        `,
+        imgUrl: './styles/assets/imgs/ps5.jpg',
         short: `
-            <h3>¿Sabías que hubo un videojuego donde Spider-Man se transformaba en Batman?🤔🧐</h3>
-            <p>En esta sección de Gamer Tips hablaremos acerca de "The Revenge of Shinobi". Un videojuego de acción...</p>
-            <p><a id="link_tip1" href="../details/details.html">Leer más...</a>
+            <h3>La Todopoderosa PlayStation 5.</h3>
+            <p>Disfruta de tiempos de carga superveloces con un SSD de velocidad ultrarrápida, una experiencia más inmersiva gracias a la compatibilidad con respuesta háptica, gatillos adaptativos y audio 3D, y toda una nueva generación de juegos increíbles para PlayStation.</p>
         `
     },
     {
         type: "tip",
-        imgUrl: './styles/assets/imgs/tip2.png',
-        description: `
-            <h3>¿Sabías que Link tiene el cabello de color rosado en un juego?</h3>
-            <p>¡Esta semana sale el Tears of the Kingdom y ya calentamos motores! 🔥</p>
-            <p>El 12 de mayo tendremos en el mercado el Zelda: Tears of The Kingdom, y para ir preparando su lanzamiento te dejamos un dato que quizás no conocías de Link. 👀</p>
-            <p>Sí, en el videojuego A Link to the Past, nuestro protagonista tuvo el cabello rosado. 😳</p>
-            <p>Visita nuestra publicación en <a href="https://www.instagram.com/p/Cr_B0z7ODlq/" target="_blank">Instagram</a> para conocer más en detalle esta curiosidad </p>
-        `,
+        imgUrl: './styles/assets/imgs/xbox.png',
         short: `
-            <h3>¿Sabías que Link tiene el cabello de color rosado en un juego?</h3>
-            <p>¡Esta semana sale el Tears of the Kingdom y ya calentamos motores! 🔥</p>
-            <p><a id="link_tip2" href="../details/details.html">Leer más...</a>
+            <h3>Xbox Series X|S.</h3>
+            <p>Con miles de títulos favoritos actuales, nuevos lanzamientos y títulos consagrados disponibles, la Xbox Series X ofrece una biblioteca lista para la diversión tan pronto como abres la caja.</p>
         `
     },
     {
         type: "tip",
-        imgUrl: './styles/assets/imgs/tip3.png',
-        description: `
-            <h3>¿Sabías que Devil May Cry originalmente iba a ser el RE4?</h3>
-            <p>Tras el lanzamiento de RE 3: Nemesis, Capcom decidió empezar a producir la cuarta entrega de la franquicia con el productor Hideki Kamiya a la cabeza del proyecto.</p>
-            <p>Pero la idea que tenía Kamiya para RE4 era muy diferente, ya que quería de hecho una acción más frenética con gran protagonismo de las armas de fuego, e incluso la presencai de espadas.</p>
-            <p>Si deseas conocer más acerca de esta historia, visita nuestra cuenta de <a href="https://www.instagram.com/p/CpK6ud2L621/" target="_blank">Instagram.</a></p>
-        `,
+        imgUrl: './styles/assets/imgs/nintendo-switch.webp',
         short: `
-            <h3>¿Sabías que Devil May Cry originalmente iba a ser el RE4?</h3>
-            <p>Tras el lanzamiento de RE 3: Nemesis, Capcom decidió...</p>
-            <p><a id="link_tip3" href="../details/details.html">Leer más...</a>
+            <h3>Nintendo Switch: Los mejores exclusivos de la industria.</h3>
+            <p>Las consolas Nintendo Switch son el hogar de juegos como Super Mario Bros.™ Wonder, Mario Kart™ 8 Deluxe y muchos más que cuentan con la participación de Mario y sus amigos.</p>
         `
     }
 ];
