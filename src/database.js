@@ -72,56 +72,28 @@ export const gamerTips = [
 export const launches = [
     {
         type: "launch",
-        imgUrl: './styles/assets/imgs/launch1.png',
-        description: `
-            <h3>¡Nuevo tráiler de "Resident Evil: Death Island! 🚨👏🏻</h3>
-            <p>La cuarta película animada de la querida franquicia de terror y supervivencia presentó un nuevo tráiler. 🧟‍♂️👀</p>
-            <p>El avance revela cómo todos los héroes clásicos de Resident Evil han estado luchando contra el bioterrorismo en todo el mundo desde la última vez que nos cruzamos con ellos. 🍿🤯</p>
-            <p>Para empezar, Jill Valentine ha estado trabajando junto a Chris Redfield  para evitar que nuevas cepas del T-Virus se desaten en el mundo. 🤔🎞</p>
-            <p>El avance también los muestra formando equipo con Rebecca Chambers. El trío se cruza con Claire Redfield, que aparentemente está investigando una criatura marina mutada. 🌊🧟‍♂️</p>
-            <p>El equipo recién formado se completa con la incorporación de Leon S. Kenedy, quien también lidera su propia investigación, aunque está tratando de resolver la desaparición de un científico. 🍿🔥</p>
-            <p>Resident Evil: Death Island, estará disponible en Blu-Ray, DVD y formato digital a partir del 25 de julio. 👀🎮</p>
-            <p>¿Qué te parece este proyecto? 💬👇🏻 <a href="https://www.instagram.com/p/CtJ8IHoNPbV/" target="_blank">Instagram.</a></p>
-        `,
+        imgUrl: './styles/assets/imgs/gift-cards.png',
         short: `
-            <h3>¡Nuevo tráiler de "Resident Evil: Death Island! 🚨👏🏻</h3>
-            <p>La cuarta película animada de la querida franquicia de terror y supervivencia presentó un nuevo tráiler. 🧟‍♂️👀</p>
-            <p><a id="link_launch1" href="../details/details.html">Leer más...</a>
+            <h3>Nintendo eShop</h3>
+            <p>Si deseas adquirir productos directamente a través de la Nintendo eShop, disponemos de gifts cards con códigos digitales.</p>
         `
     },
     {
         type: "launch",
-        imgUrl: './styles/assets/imgs/launch2.png',
-        description: `
-            <h3>¡La nueva serie de Silent Hill cada vez más cerca! 👏🏻🚨</h3>
-            <p>Uno de los proyectos nuevos de Konami "Silent Hill: Ascension", ha publicado su nuevo trailer en la que podemos ver un poco más de la serie interactiva. 🤯🍿</p>
-            <p>La oscuridad y el terror se apoderan del tráiler, en lo que parece ser un producto "muy Silent Hill". 🎞🌘</p>
-            <p>Según la descripción oficial del video, Silent Hill: Ascension es "una serie de Genvid Interactive Streaming que presenta a múltiples personajes principales de todo el mundo mientras se enfrentan a los horrores desatados en sus comunidades". 🙌🏻🤔</p>
-            <p>"Silent Hill: Ascension" dará comienzo a finales de 2023 y contará con "momentos diarios imperdibles de la historia en directo, en los que cada día será diferente al anterior en función de las acciones del público." 📅📼</p>
-            <p>¿Qué opinas de este nuevo proyecto? ¿Lo verás? 🤔💬👇🏻 <a href="https://www.instagram.com/p/Cs416c3Pgi5/" target="_blank">Instagram.</a></p>
-        `,
+        imgUrl: './styles/assets/imgs/playstation-store.jpg',
         short: `
-            <h3>¡La nueva serie de Silent Hill cada vez más cerca! 👏🏻🚨</h3>
-            <p>Uno de los proyectos nuevos de Konami "Silent Hill: Ascension", ha publicado...</p>
-            <p><a id="link_launch2" href="../details/details.html">Leer más...</a>
+            <h3>PlayStation Store</h3>
+            <p>Si deseas adquirir productos directamente a través de la PlayStation Store, disponemos de gifts cards con códigos digitales.</p>
         `
     },
-    {
-        type: "launch",
-        imgUrl: './styles/assets/imgs/launch3.png',
-        description: `
-            <h3>Spider-man Across the Spider-Verse presenta su tráiler final!🕷️💥</h3>
-            <p>Gracias al equipo de Sony Pictures hemos tenido la ocasión de ver un nuevo y breve teaser de Spider-Man Cruzando el Multiverso, con Miles Morales de protagonista, junto a las diferentes versiones que nos encontraremos del Spider-Verse.🕸️😎</p>
-            <p>Gracias a este nuevo tráiler internacional de Spider-Man: Cruzando el Multiverso, podemos disfrutar de bastante metraje inédito, con un especial énfasis en la acción y los combates en los que se verá inmerso Miles Morales, ya sea contra el villano del filme u otros Spider-Man, especialmente Miguel O'Hara o Spider-Man 2099.🥊🎥</p>
-            <p>Se confirma la duración total de Spider-Man: Cruzando el Multiverso, convirtiéndose en uno de los largometrajes animados más largos de la historia del cine, con un total de 140 minutos, o lo que es lo mismo, 2 horas y 20 minutos.🤯⌚</p>
-            <p>Spider-Man: Cruzando el Multiverso se estrena en cines el próximo 2 de junio de 2023.🤩📅</p>
-        `,
-        short: `
-            <h3>Spider-man Across the Spider-Verse presenta su tráiler final!🕷️💥</h3>
-            <p>Gracias al equipo de Sony Pictures hemos tenido la ocasión de ver...</p>
-            <p><a id="link_launch3" href="../details/details.html">Leer más...</a>
-        `,
-    }
+    // {
+    //     type: "launch",
+    //     imgUrl: './styles/assets/imgs/launch3.png',
+    //     short: `
+    //         <h3>Spider-man Across the Spider-Verse presenta su tráiler final!🕷️💥</h3>
+    //         <p>Gracias al equipo de Sony Pictures hemos tenido la ocasión de ver...</p>
+    //     `,
+    // }
 ];
 
 export const notifications = [

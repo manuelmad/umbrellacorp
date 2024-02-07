@@ -44,38 +44,13 @@ import { gamerTips } from "./database.js";
 document.getElementById("tip1_description").innerHTML = gamerTips[0].short;
 document.getElementById("tip1_img").innerHTML = `<img src="${gamerTips[0].imgUrl}">`;
 
-// Evento para que el link "Leer más..." guarde en localStorage la noticia a ver en detalle
-// let linkTip1 = document.getElementById("link_tip1");
-
-// linkTip1.addEventListener('click', ()=> {
-//     detailedNew = gamerTips[0];
-//     let string = JSON.stringify(detailedNew);
-//     localStorage.setItem("detailedNew", string);
-// });
-
 /* 2 */
 document.getElementById("tip2_description").innerHTML = gamerTips[1].short;
 document.getElementById("tip2_img").innerHTML = `<img src="${gamerTips[1].imgUrl}">`;
 
-// let linkTip2 = document.getElementById("link_tip2");
-
-// linkTip2.addEventListener('click', ()=> {
-//     detailedNew = gamerTips[1];
-//     let string = JSON.stringify(detailedNew);
-//     localStorage.setItem("detailedNew", string);
-// });
-
 /* 3 */
 document.getElementById("tip3_description").innerHTML = gamerTips[2].short;
 document.getElementById("tip3_img").innerHTML = `<img src="${gamerTips[2].imgUrl}">`;
-
-// let linkTip3 = document.getElementById("link_tip3");
-
-// linkTip3.addEventListener('click', ()=> {
-//     detailedNew = gamerTips[2];
-//     let string = JSON.stringify(detailedNew);
-//     localStorage.setItem("detailedNew", string);
-// });
 
 
 // LANZAMIENTOS
@@ -85,38 +60,13 @@ import { launches } from "./database.js";
 document.getElementById("launch1_description").innerHTML = launches[0].short;
 document.getElementById("launch1_img").innerHTML = `<img src="${launches[0].imgUrl}">`;
 
-// Evento para que el link "Leer más..." guarde en localStorage la noticia a ver en detalle
-// let linkLaunch1 = document.getElementById("link_launch1");
-
-// linkLaunch1.addEventListener('click', ()=> {
-//     detailedNew = launches[0];
-//     let string = JSON.stringify(detailedNew);
-//     localStorage.setItem("detailedNew", string);
-// });
-
 /* 2 */
 document.getElementById("launch2_description").innerHTML = launches[1].short;
 document.getElementById("launch2_img").innerHTML = `<img src="${launches[1].imgUrl}">`;
 
-// let linkLaunch2 = document.getElementById("link_launch2");
-
-// linkLaunch2.addEventListener('click', ()=> {
-//     detailedNew = launches[1];
-//     let string = JSON.stringify(detailedNew);
-//     localStorage.setItem("detailedNew", string);
-// });
-
 /* 3 */
-document.getElementById("launch3_description").innerHTML = launches[2].short;
-document.getElementById("launch3_img").innerHTML = `<img src="${launches[2].imgUrl}">`;
-
-// let linkLaunch3 = document.getElementById("link_launch3");
-
-// linkLaunch3.addEventListener('click', ()=> {
-//     detailedNew = launches[2];
-//     let string = JSON.stringify(detailedNew);
-//     localStorage.setItem("detailedNew", string);
-// });
+// document.getElementById("launch3_description").innerHTML = launches[2].short;
+// document.getElementById("launch3_img").innerHTML = `<img src="${launches[2].imgUrl}">`;
 
 
 // NOTIFICACIONES
