@@ -86,14 +86,14 @@ export const launches = [
             <p>Si deseas adquirir productos directamente a través de la PlayStation Store, disponemos de gifts cards con códigos digitales.</p>
         `
     },
-    // {
-    //     type: "launch",
-    //     imgUrl: './styles/assets/imgs/launch3.png',
-    //     short: `
-    //         <h3>Spider-man Across the Spider-Verse presenta su tráiler final!🕷️💥</h3>
-    //         <p>Gracias al equipo de Sony Pictures hemos tenido la ocasión de ver...</p>
-    //     `,
-    // }
+    {
+        type: "launch",
+        imgUrl: './styles/assets/imgs/xbox-giftcard.jpg',
+        short: `
+            <h3>Microsoft Store</h3>
+            <p>Si deseas adquirir productos directamente a través de la Microsoft Store, disponemos de gifts cards con códigos digitales.</p>
+        `,
+    }
 ];
 
 export const notifications = [
@@ -125,79 +125,61 @@ export const notifications = [
 
 export const us = [
     {
-        imgUrl: './styles/assets/imgs/planeta-geek-tv2.png',
+        imgUrl: './styles/assets/imgs/switch-games.png',
         description: `
-            <h3>¡Llegamos a la 3ra temporada!</h3>
-            <p>Hace tres años empezamos este proyecto en <a href="https://www.instagram.com/somoslateletuya/" target="_blank">@somoslateletuya</a> y al día de hoy se convirtió en mi otra gran pasión. ♥️</p>
-            <p>A partir del viernes 17 de febrero aterriza la nueva temporada, y venimos con cosas muy geniales. 😎</p>
-            <p>Gracias a todos los que nos han apoyado durante todo este tiempo, ¡Son la mejor comunidad de todas! 🛸</p>
-            <p>Y sí, para esta tercera temporada tenemos Setup completamente nuevo, ¡La pasaremos muy bien! 🤘🏻🔥</p>
+            <h3>NINTENDO SWITCH</h3>
+            <p>Tenemos todos los mejores juegos de la híbrida de Nintendo para que disfrutes en familia y con tus amigos.</p>
         `
     },
     {
-        imgUrl: './styles/assets/imgs/planeta-geek-radio2.png',
+        imgUrl: './styles/assets/imgs/ps5-mk.png',
         description: `
-            <h3>¡Estamos de vuelta a la radio!</h3>
-            <p>Arranca el 2023, desde hoy empezamos la nueva temporada de Planeta Geek Radio por <a href="https://www.instagram.com/circuitoliderfm/" target="_blank">@circuitoliderfm</a>.</p>
-            <p>Se extrañaba muchísimo estar aquí, hablar de videojuegos, superhéroes y de eSports. ♥️</p>
-            <p>Toda la banda de Planeta Geek Radio les invita a escucharnos de lunes a viernes de 7 a.m. a 9 p.m. por la 94.9 FM en Caracas.</p>
+            <h3>PLAYSTATION 5</h3>
+            <p>Siempre a la vanguardia con los juegos más actuales del mercado. Disfruta de los mejores gráficos del momento.</p>
         `
     },
     {
-        imgUrl: './styles/assets/imgs/aniversario1radio.png',
+        imgUrl: './styles/assets/imgs/ps4-games.png',
         description: `
-            <h3>¡Planeta Geek Radio cumple su 1er año al aire! 🥳📻🎮</h3>
-            <p>Hace un año empezamos este viaje en <a href="https://www.instagram.com/circuitoliderfm/" target="_blank">@circuitoliderfm</a> llevándoles información, entretenimiento y mucha diversión. 😎.</p>
-            <p>Gracias a ustedes quienes han estado con nosotros día tras día escuchando el programa, ¡son los mejores! 💪🏻
-            </p>
-            <p>Y para celebrar nuestro primer aniversario, te dejamos actividades para TODO el mes de julio, visita nuestra publicación en <a href="https://www.instagram.com/p/CuPhopluJL1/" target="_blank">Instagram</a> y conócelas. 👀</p>
+            <h3>PLAYSTATION 4</h3>
+            <p>No nos olvidamos de las generaciones anteriores de Sony que tanto disfrutamos. También contamos con juegos de PS3.</p>
         `
     }
 ];
 
-export const tournaments = [
-    {
-        imgUrl: './styles/assets/imgs/torneo1.png',
-        description: `
-            <h3>¡Aquí el primer campeón del Mario Kart Tour Challenge! 🏆</h3>
-            <p>Felicidades a <a href="https://www.instagram.com/santigaldames_/" target="_blank">@santigaldames_</a> por quedarse con el primer lugar de nuestro torneo, ¡fuiste el más rápido de toda la competición!</p>
-            <p>También queremos felicitar a <a href="https://www.instagram.com/enma_112/" target="_blank">@enma_112</a> 🥈por su segundo lugar y <a href="https://www.instagram.com/fer_2205/" target="_blank">@fer_2205</a> por su tercer lugar. 🥉</p>
-            <p>Y también agradecer a lo 90 PARTICIPANTES que estuvieron desde el día 1 en el Mario Kart Tour Challenge. 🥳</p>
-            <p>Este es el primer torneo de muchos que estaremos organizando para nuestra comunidad, ¡vamos! 🎮🔥😎</p>
-        `
-    },
-];
+// export const tournaments = [
+//     {
+//         imgUrl: './styles/assets/imgs/torneo1.png',
+//         description: `
+//             <h3>¡Aquí el primer campeón del Mario Kart Tour Challenge! 🏆</h3>
+//             <p>Felicidades a <a href="https://www.instagram.com/santigaldames_/" target="_blank">@santigaldames_</a> por quedarse con el primer lugar de nuestro torneo, ¡fuiste el más rápido de toda la competición!</p>
+//             <p>También queremos felicitar a <a href="https://www.instagram.com/enma_112/" target="_blank">@enma_112</a> 🥈por su segundo lugar y <a href="https://www.instagram.com/fer_2205/" target="_blank">@fer_2205</a> por su tercer lugar. 🥉</p>
+//             <p>Y también agradecer a lo 90 PARTICIPANTES que estuvieron desde el día 1 en el Mario Kart Tour Challenge. 🥳</p>
+//             <p>Este es el primer torneo de muchos que estaremos organizando para nuestra comunidad, ¡vamos! 🎮🔥😎</p>
+//         `
+//     },
+// ];
 
 export const apps = [
     {
-        imgUrl: './styles/assets/imgs/appsorteo.png',
+        imgUrl: './styles/assets/imgs/rep2.png',
         description: `
-            <h3>APLICACIÓN PARA SORTEAR GANADORES</h3>
-            <p>Una aplicación web de fácil uso para escoger un ganador entre el número de participantes que desees incluir.</p>
-            <p>Agregar tantas filas como participantes hayan en el sorteo.</p>
-            <p>Ingresa en cada fila el nombre de cada persona.</p>
-            <p>Haz clic sobre el botón "ESCOGER GANADOR"... ¡¡Listo!! La app escogerá un nombre entre los participantes y los mostrará en pantalla, junto con algunas divertidas animaciones para celebrar.</p>
-            <p><a href="https://planetageek-appsorteos.netlify.app/" target="_blank">Ir a la web app...</a></p>
+            <h3>REPARACIÓN Y MANTENIMIENTO</h3>
+            <p>También contamos con un servicio especializado de reparación y mantenimiento de videoconsolas. Dale nueva vida a tus tan queridas compañeras de entretenimiento.</p>
         `
     },
     {
-        imgUrl: './styles/assets/imgs/groups-generator-img.png',
+        imgUrl: './styles/assets/imgs/ps3-mod.jpg',
         description: `
-            <h3>APLICACIÓN PARA FORMAR GRUPOS DE TORNEOS</h3>
-            <p>Sube el archivo de excel donde tienes anotados los participantes del torneo. Éste debe lucir como lo indica el ejemplo que verás en el sitio web.</p>
-            <p>Una vez subido, la app te indicará cuántos participantes hay en total, y te solicitará ingresar el número de integrantes que debe tener cada grupo.</p>
-            <p>Luego de ingresar el número, haz clic sobre el botón "GENERARA GRUPOS"... ¡¡Listo!! Obtendrás la cantidad de grupos posible según el número total de participantes.</p>
-            <p><a href="https://planetageek-groups-generator.netlify.app/" target="_blank">Ir a la web app...</a></p>
+            <h3>CHIPEO DE VIDEOCONSOLAS</h3>
+            <p>Ofrecemos un excelente servicio de "chipeo" para que disfrutes por completo de los amplios catálogos de juegos con que cuentan tus consolas favoritas.</p>
         `
     },
     {
-        imgUrl: './styles/assets/imgs/videogame.png',
+        imgUrl: './styles/assets/imgs/magistv.png',
         description: `
-            <h3>VIDEOJUEGO DE PLANETA GEEK</h3>
-            <p>Un videojuego con temática de Planeta Geek.</p>
-            <p>Evita los obstáculos y trampas, esquiva a los enemigos, recoge las piezas faltantes de tu nave y ayuda al héroe a volver a casa sano y salvo.</p>
-            <p>Supera los 3 niveles disponibles en el juego y disfruta de la cinemática final.</p>
-            <p><a href="https://planetageek-videogame.netlify.app/" target="_blank">Ir a la web app...</a></p>
+            <h3>STREAMING</h3>
+            <p>Contrata tu servicio de streaming con nosotros y disfruta de tus canales favoritos al mejor precio.</p>
         `
     }
 ];

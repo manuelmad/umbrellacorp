@@ -65,8 +65,8 @@ document.getElementById("launch2_description").innerHTML = launches[1].short;
 document.getElementById("launch2_img").innerHTML = `<img src="${launches[1].imgUrl}">`;
 
 /* 3 */
-// document.getElementById("launch3_description").innerHTML = launches[2].short;
-// document.getElementById("launch3_img").innerHTML = `<img src="${launches[2].imgUrl}">`;
+document.getElementById("launch3_description").innerHTML = launches[2].short;
+document.getElementById("launch3_img").innerHTML = `<img src="${launches[2].imgUrl}">`;
 
 
 // NOTIFICACIONES
@@ -76,38 +76,13 @@ import { notifications } from "./database.js";
 document.getElementById("notification1_description").innerHTML = notifications[0].short;
 document.getElementById("notification1_img").innerHTML = `<img src="${notifications[0].imgUrl}">`;
 
-// Evento para que el link "Leer más..." guarde en localStorage la noticia a ver en detalle
-// let linkNotification1 = document.getElementById("link_notification1");
-
-// linkNotification1.addEventListener('click', ()=> {
-//     detailedNew = notifications[0];
-//     let string = JSON.stringify(detailedNew);
-//     localStorage.setItem("detailedNew", string);
-// });
-
 /* 2 */
 document.getElementById("notification2_description").innerHTML = notifications[1].short;
 document.getElementById("notification2_img").innerHTML = `<img src="${notifications[1].imgUrl}">`;
 
-// let linkNotification2 = document.getElementById("link_notification2");
-
-// linkNotification2.addEventListener('click', ()=> {
-//     detailedNew = notifications[1];
-//     let string = JSON.stringify(detailedNew);
-//     localStorage.setItem("detailedNew", string);
-// });
-
 /* 3 */
 document.getElementById("notification3_description").innerHTML = notifications[2].short;
 document.getElementById("notification3_img").innerHTML = `<img src="${notifications[2].imgUrl}">`;
-
-// let linkNotification3 = document.getElementById("link_notification3");
-
-// linkNotification3.addEventListener('click', ()=> {
-//     detailedNew = notifications[2];
-//     let string = JSON.stringify(detailedNew);
-//     localStorage.setItem("detailedNew", string);
-// });
 
 
 // NOSOTROS
@@ -127,11 +102,11 @@ document.getElementById("us3_img").innerHTML = `<img src="${us[2].imgUrl}">`;
 
 
 // TORNEOS
-import { tournaments } from "./database.js";
+// import { tournaments } from "./database.js";
 
 /* 1 */
-document.getElementById("tournaments1_description").innerHTML = tournaments[0].description;
-document.getElementById("tournaments1_img").innerHTML = `<img src="${tournaments[0].imgUrl}">`;
+// document.getElementById("tournaments1_description").innerHTML = tournaments[0].description;
+// document.getElementById("tournaments1_img").innerHTML = `<img src="${tournaments[0].imgUrl}">`;
 
 // APLICACIONES
 import { apps } from "./database.js";

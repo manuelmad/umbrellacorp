@@ -34,6 +34,7 @@ html {
     --planeta-geek-green: #80FB03;
     --planeta-geek-green-shadow: #478d01;
     --planeta-geek-blue: #0304FB;
+    --light-blue: #3737ff;
     --planeta-geek-blue-shadow: #0203BC;
     --ss: 1.2rem;
     --sm: 1.4rem;
@@ -746,12 +747,6 @@ nav #dropdown-list {
     line-height: 2.5rem;
 }
 
-.launch-1 a, .launch-2 a, .launch-3 a {
-    width: 100%;
-    color: var(--fucsia-shadow);
-    text-decoration: none;
-}
-
 
 /* NOTIFICACIONES */
 
@@ -871,22 +866,6 @@ nav #dropdown-list {
     line-height: 2.5rem;
 }
 
-.notification-2 ul li {
-    width: 100%;
-    color: var(--vivid-red);
-    font-weight: 300;
-    margin-top: 1rem;
-    font-size: var(--md);
-    padding: 0 2rem 0;
-    line-height: 2.5rem;
-}
-
-.notification-1 a, .notification-2 a, .notification-3 a {
-    width: 100%;
-    color: var(--vivid-red);
-    text-decoration: none;
-}
-
 
 /* NOSOTROS */
 
@@ -968,7 +947,7 @@ nav #dropdown-list {
 
 .us-1 h3, .us-2 h3, .us-3 h3 {
     width: 100%;
-    color: var(--planeta-geek-blue);
+    color: var(--light-blue);
     margin-top: 1rem;
     font-size: var(--lg);
     padding: 1rem 2rem 0;
@@ -982,12 +961,6 @@ nav #dropdown-list {
     font-size: var(--md);
     padding: 0 2rem 0;
     line-height: 2.5rem;
-}
-
-.us-1 a, .us-2 a, .us-3 a {
-    width: 100%;
-    color: var(--planeta-geek-blue);
-    text-decoration: none;
 }
 
 /* TOTNEOS */
@@ -1205,6 +1178,8 @@ nav #dropdown-list {
 #dropdown-list li a {
     z-index: 10;
 }
+
+
 /* FOOTER */
 
 footer {
@@ -1227,7 +1202,7 @@ footer section {
 
 .social-media-footer h2 {
     width: 100%;
-    color: var(--red-notifications);
+    color: var(--palid-red);
     margin-top: 1rem;
     font-size: var(--lg);
     padding: 1rem 2rem 0;
@@ -1329,7 +1304,7 @@ footer section {
 
 #footer-list li a {
     text-decoration: none;
-    color: var(--red-notifications);
+    color: var(--palid-red);
     font-size: var(--md);
 }
 
