@@ -15,6 +15,14 @@ function interactiveMenu() {
     }
 }
 
+// CÓDIGO PARA HACER QUE LOS LINKS DEL MENÚ DESPLEGABLE OCULTEN DICHO MENÚ AL TOCARLOS
+const items = document.querySelectorAll(".item");
+
+items.forEach(item => {
+    item.addEventListener("click", interactiveMenu);
+});
+
+
 // CÓDIGO PARA LLENAR LOS CONTENEDORES DE HTML CON LAS NOTICIAS
 
 // TENDENCIAS
