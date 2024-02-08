@@ -6,7 +6,6 @@ export const trends = [
             <h3>¡La mítica Nintendo 3DS!</h3>
             <p>Nintendo 3DS es tu puerta de acceso portátil a un mundo de increíbles juegos y servicios.</p>
             <p>Te permite conectar con amigos y la comunidad global de Nintendo, y te ofrece novedosas opciones para compartir contenidos.</p>
-            <p>Lleva la experiencia de juego portátil a una nueva dimensión, con Nintendo 3DS.</p>
         `
     },
     {
@@ -15,8 +14,6 @@ export const trends = [
         short: `
             <h3>¡PlayStation Portable: La más exitosa consola portatil de Sony!</h3>
             <p>Fue un nuevo estilo de videoconsolas portátiles. Una invitación no sólo a disfrutar de juegos inmersivos con gráficos 3D sino también de entretenimiento con video y música de una calidad excepcional.</p>
-            <p>La comodidad era primordial en el diseño compacto y simbólico de la PSP y esto la hizo bastante popular.</p>
-            <p>El cuerpo curvo cabe fácilmente en las manos de varios jugadores. En el panel frontal, los controles están cuidadosamente organizados para permitir a los usuarios centrarse en el contenido del video.</p>
         `
     },
     {
@@ -25,8 +22,7 @@ export const trends = [
         short: `
             <h3>¡PlayStation 3: Versatil y confiable!</h3>
             <p>PlayStation 3 es la tercera videoconsola de sobremesa producida por Sony Computer Entertainment.</p>
-            <p>Cuenta con sólidas capacidades multimedia, conectividad con la PlayStation Portable y PlayStation Vita y su principal formato de disco óptico de alta definición, Blu-ray Disc, como su principal medio de almacenamiento.</p>
-            <p>La PS3 también dio soporte al Blu-ray perfil 2.0, gracias a ello se pudo interactuar por internet con contenidos extras de películas y juegos.</p>
+            <p>Cuenta con sólidas capacidades multimedia, conectividad con la PlayStation Portable y PlayStation Vita y su principal formato de disco óptico de alta definición, Blu-ray Disc.</p>
         `,
     },
     {
@@ -35,9 +31,7 @@ export const trends = [
         short: `
             <h3>¡PlayStation 4: Potente y aún vigente!</h3>
             <p>La consola PS4 ofrece una potencia de juego impresionante, entretenimiento increíble y tecnología de HDR intenso.</p>
-            <p>Almacena tus juegos, aplicaciones, capturas de pantalla y videos.</p>
             <p>Descubre las más populares y mejores películas, programas de TV, servicios de transmisión de video y toda la música del mundo desde la pantalla de inicio de tu PS4.</p>
-            <p>La libertad de jugar, compartir y socializar con millones de jugadores de todo el mundo. Transmite juegos desde tu PS4 a cualquier dispositivo iOS o Android compatible, PC, Mac y PlayStation Vita mediante la red Wi-Fi doméstica, y disfruta la libertad desde tu TV.</p>
         `,
     }
 ];

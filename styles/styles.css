@@ -156,7 +156,7 @@ header a svg:hover {
 
 .nav-bar-container .main-menu ul li a {
     text-decoration: none;
-    font-size: var(--md);
+    font-size: var(--ss);
     font-style: italic;
     color: var(--white);
     transition: 0.4s ease all;
@@ -270,10 +270,12 @@ nav #dropdown-list {
 }
 
 .title-container {
-    width: 100%;
+    /* width: 100%; */
+    width: 30rem;
     display: flex;
     height: 6rem;
     padding: 0 2rem 0;
+    margin: 0 auto;
 }
 
 /* QUIÉNES SOMOS */
@@ -286,12 +288,12 @@ nav #dropdown-list {
     justify-content: center;
     align-items: center;
     padding: 0 2rem 0;
-    /* position: relative; */
+    position: relative;
 }
 
 .who .title-container h2:before {
     top: 50;
-    left: 2.5rem;
+    left: -0.5rem;
     display: inline-block;
     content: "";
     width: 0.8rem;
@@ -364,12 +366,12 @@ nav #dropdown-list {
     justify-content: center;
     align-items: center;
     padding: 0 2rem 0;
-    /* position: relative; */
+    position: relative;
 }
 
 .trends .title-container h2:before {
     top: 50;
-    left: 2.5rem;
+    left: -0.5rem;
     display: inline-block;
     content: "";
     width: 0.8rem;
@@ -387,12 +389,13 @@ nav #dropdown-list {
 
 .trends .intro-container {
     color: var(--white);
-    width: 100%;
+    /* width: 100%; */
+    width: 30rem;
     color: var(--white);
     font-weight: 300;
-    margin-top: 1rem;
+    margin: 4rem auto 0;
     font-size: var(--md);
-    padding: 0 2rem 0;
+    /* padding: 4rem 2rem 0; */
     line-height: 2.5rem;
 }
 
@@ -513,11 +516,12 @@ nav #dropdown-list {
     justify-content: center;
     align-items: center;
     padding: 0 2rem 0;
+    position: relative;
 }
 
 .gamer-tips .title-container h2:before {
     top: 50;
-    left: 2.5rem;
+    left: -0.5rem;
     display: inline-block;
     content: "";
     width: 0.8rem;
@@ -535,12 +539,12 @@ nav #dropdown-list {
 
 .gamer-tips .intro-container {
     color: var(--white);
-    width: 100%;
+    width: 30rem;
     color: var(--white);
     font-weight: 300;
-    margin-top: 1rem;
+    margin: 4rem auto 0;
     font-size: var(--md);
-    padding: 0 2rem 0;
+    /* padding: 0 2rem 0; */
     line-height: 2.5rem;
 }
 
@@ -641,11 +645,12 @@ nav #dropdown-list {
     justify-content: center;
     align-items: center;
     padding: 0 2rem 0;
+    position: relative;
 }
 
 .launches .title-container h2:before {
     top: 50;
-    left: 2.5rem;
+    left: -0.5rem;
     display: inline-block;
     content: "";
     width: 0.8rem;
@@ -758,11 +763,12 @@ nav #dropdown-list {
     justify-content: center;
     align-items: center;
     padding: 0 2rem 0;
+    position: relative;
 }
 
 .notifications .title-container h2:before {
     top: 50;
-    left: 2.5rem;
+    left: -0.5rem;
     display: inline-block;
     content: "";
     width: 0.8rem;
@@ -877,11 +883,12 @@ nav #dropdown-list {
     justify-content: center;
     align-items: center;
     padding: 0 2rem 0;
+    position: relative;
 }
 
 .us .title-container h2:before {
     top: 50;
-    left: 2.5rem;
+    left: -0.5rem;
     display: inline-block;
     content: "";
     width: 0.8rem;
@@ -973,11 +980,12 @@ nav #dropdown-list {
     justify-content: center;
     align-items: center;
     padding: 0 2rem 0;
+    position: relative;
 }
 
 .tournaments .title-container h2:before {
     top: 50;
-    left: 2.5rem;
+    left: -0.5rem;
     display: inline-block;
     content: "";
     width: 0.8rem;
@@ -1055,11 +1063,12 @@ nav #dropdown-list {
     justify-content: center;
     align-items: center;
     padding: 0 2rem 0;
+    position: relative;
 }
 
 .apps .title-container h2:before {
     top: 50;
-    left: 2.5rem;
+    left: -0.5rem;
     display: inline-block;
     content: "";
     width: 0.8rem;

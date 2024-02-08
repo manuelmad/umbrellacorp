@@ -24,6 +24,11 @@ header {
     visibility: visible;
 }
 
+/* .nav-bar-container .main-menu ul li a {
+    font-size: var(--md);
+} */
+
+
 .main-nav-bar .logo-container:before {
     top: 0;
     left: -10px;
@@ -237,14 +242,14 @@ header {
     padding-right: 7rem;
 }
 
-.who .title-container h2:before,
+/* .who .title-container h2:before,
 .trends .title-container h2:before,
 .gamer-tips .title-container h2:before,
 .launches .title-container h2:before,
 .notifications .title-container h2:before,
 .us .title-container h2:before, .tournaments .title-container h2:before, .apps .title-container h2:before {
     left: 8.5rem;
-}
+} */
 
 .trending-articles__container, .gamer-tips__container, .launches-articles__container, .notifications-articles__container, .us-articles__container/*, .tournaments-articles__container*/, .apps-articles__container {
     width: 100rem;
@@ -252,6 +257,10 @@ header {
 }
 
 .who-articles__container, .tournaments-articles__container {
+    width: 100rem;
+}
+
+.trends .intro-container, .gamer-tips .intro-container, .title-container {
     width: 100rem;
 }
 

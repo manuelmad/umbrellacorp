@@ -2,6 +2,10 @@
     width: 69rem;
 }
 
+.trends .intro-container, .gamer-tips .intro-container, .title-container {
+    width: 69rem;
+}
+
 .who-articles__container, .tournaments-articles__container {
     margin: 1rem auto 0;
 }
@@ -23,6 +27,15 @@
     /* margin-top: 1rem; */
     margin: 1rem auto 0;
 }
+
+/* .who .title-container h2:before,
+.trends .title-container h2:before,
+.gamer-tips .title-container h2:before,
+.launches .title-container h2:before,
+.notifications .title-container h2:before,
+.us .title-container h2:before, .tournaments .title-container h2:before, .apps .title-container h2:before {
+    left: -0.5rem;
+} */
 
 .galery {
     grid-template-columns: 1fr 1fr 1fr 1fr;
