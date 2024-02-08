@@ -162,7 +162,7 @@ header a svg:hover {
 }
 
 .nav-bar-container .main-menu ul li a:hover {
-    color: var(--red-notifications);
+    color: var(--palid-red);
 }
 
 #home {

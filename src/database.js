@@ -99,60 +99,26 @@ export const launches = [
 export const notifications = [
     {
         type: "notification",
-        imgUrl: './styles/assets/imgs/notification1.png',
-        description: `
-            <h3>¡FUSION PARTICIPARÁ EN EL VALORANT AMERICAS ASCENSION 2023!</h3>
-            <p>¡<a href="https://www.instagram.com/fusionfsgg/" target="_blank">@fusionfsgg</a> jugará la Valorant Americas Ascension 2023! 👏🏻🔥</p>
-            <p>A partir de hoy comenzará el Americas Ascension 2023, en el que competirán los seis mejores equipos de Latinoamérica por un puesto en el VCT Americas. 👀🚨</p>
-            <p>Previo a esta zona, se jugaron las clasificatorias para las zonas de Norteamérica, Sudamérica y Brasil.🌎🕹</p>
-            <p>Los equipos que ganaron su boleto a la Americas Ascension son The Union y 00 Nation como representantes brasileños, M80 y The Guard desde Estados Unidos, 9z de Argentina y Fusion de Venezuela 🎮🏆</p>
-            <p>Los equipos que ganen sus respectivos grupos clasificarán directamente a semifinales del cuadro superior, mientras que segundos y terceros se cruzarán en cuartos de final. 📅🍿</p>
-            <p>¡El mayor de los éxitos, <a href="https://www.instagram.com/fusionfsgg/" target="_blank">@fusionfsgg</a>! 🔥🙌🏻</p>
-        `,
+        imgUrl: './styles/assets/imgs/storage.png',
         short: `
-            <h3>¡FUSION PARTICIPARÁ EN EL VALORANT AMERICAS ASCENSION 2023!</h3>
-            <p>¡<a href="https://www.instagram.com/fusionfsgg/" target="_blank">@fusionfsgg</a> jugará la Valorant Americas Ascension 2023! 👏🏻🔥</p>
-            <p><a id="link_notification1" href="../details/details.html">Leer más...</a>
+            <h3>DISPOSITIVOS DE ALMACENAMIENTO</h3>
+            <p>Cuando se trata de espacio para guardar nuestros juegos digitales, nunca es demasiado, ¡más es mejor!</p>
         `
     },
     {
         type: "notification",
-        imgUrl: './styles/assets/imgs/notification2.png',
-        description: `
-            <h3>¡CARLOS ÁLVAREZ REPRESENTARÁ A VENEZUELA EN LA SEMANA OLÍMPICA!</h3>
-            <p>¡Un venezolano estará en la Semana Olímpica de los E-sports! 🔥🇻🇪</p>
-            <p>El día de ayer estuvimos conversando con Carlos Álvarez (<a href="https://www.instagram.com/theproductmanager/" target="_blank">@theproductmanager</a>), quien es un Sim racer profesional y estará representando a Venezuela en la Semana Olímpica. 🤯🙌🏻</p>
-            <p>Carlos nos comentó cómo ha sido todo el proceso desde su niñez hasta la actualidad para representar a todo un país. Su primer videojuego será el mismo que lo lleve a la escena Olímpica. 🕹</p>
-            <p>Asimismo, nos comentó cómo fue el momento en el que se enteró que había sido seleccionado para representar a Venezuela y cómo ha sido su entrenamiento desde entonces. 👏🏻🎮</p>
-            <p>La Semana Olímpica (<a href="https://www.instagram.com/juegosolimpicos/" target="_blank">@juegosolimpicos</a>) se celebrará en Singapur del 22 al 25 de junio. Cada día se correrá una fase distinta de la competición. 👏🏻🚘</p>
-            <p>Desde aquí le deseamos el mayor de los éxitos a Carlos en este momento histórico para el Gaming en Venezuela. 🇻🇪🙌🏻</p>
-        `,
+        imgUrl: './styles/assets/imgs/controllers.png',
         short: `
-            <h3>¡CARLOS ÁLVAREZ REPRESENTARÁ A VENEZUELA EN LA SEMANA OLÍMPICA!</h3>
-            <p>¡Un venezolano estará en la Semana Olímpica de los E-sports! 🔥🇻🇪</p>
-            <p><a id="link_notification2" href="../details/details.html">Leer más...</a>
+            <h3>TODO EN CONTROLES</h3>
+            <p>Si deseas poder disfrutar tus juegos favoritos con tus amigos o en familia, o simplemente reponer el antiguo control que tan fielmente te acompañó en tan duras batallas, tenemos mandos de una amplia variedad de generaciones.</p>
         `
     },
     {
         type: "notification",
-        imgUrl: './styles/assets/imgs/notification3.png',
-        description: `
-            <h3>¡Tenemos a los finalistas de los torneos de LOL y Valorant de LGA Play!</h3>
-            <p>Durante esta semana se dieron a conocer los finalistas de la Spiritual Rift Series (League Of Legends) y de la Spike Pro League (Valorant), torneos organizados por <a href="https://www.instagram.com/lgaplay/" target="_blank">@lgaplay</a> .✨✨</p>
-            <p>Estos torneos estan llegando a sus fases finales luego de 3 meses de competición. 🏆🏅</p>
-            <p>Los finalistas para la Spiritual Rift Serie son:</p>
-            <p>Pro 42 (<a href="https://www.instagram.com/pro42esports/" target="_blank">@pro42esports</a>)</p>
-            <p>Raijin eSports (<a href="https://www.instagram.com/raijinarena/" target="_blank">@raijinarena</a>)</p>
-            <p>Los finalistas para la Spike Pro League son:</p>
-            <p>Fusion GG (<a href="https://www.instagram.com/fusionfsgg/" target="_blank">@fusionfsgg</a>)</p>
-            <p>Caraeperros eSports (<a href="https://www.instagram.com/careperrosesports/" target="_blank">@careperrosesports</a>)</p>
-            <p>En los próximos días se dará a conocer la sede en donde se jugarán las finales. 👀👀</p>
-            <p>¡Buena suerte a los finalistas! 🇻🇪🎮</p>
-        `,
+        imgUrl: './styles/assets/imgs/accesories.png',
         short: `
-            <h3>¡Tenemos a los finalistas de los torneos de LOL y Valorant de LGA Play!</h3>
-            <p>Durante esta semana se dieron a conocer los finalistas de...</p>
-            <p><a id="link_notification3" href="../details/details.html">Leer más...</a>
+            <h3>GRAN VARIEDAD DE ACCESORIOS</h3>
+            <p>Haz que tus consolas tengan nueva vida y usos. Aumenta la diversión que te proporcionan.</p>
         `,
     }
 ];
