@@ -130,35 +130,3 @@ document.getElementById("apps2_img").innerHTML = `<img src="${apps[1].imgUrl}">`
 /* 3 */
 document.getElementById("apps3_description").innerHTML = apps[2].description;
 document.getElementById("apps3_img").innerHTML = `<img src="${apps[2].imgUrl}">`;
-
-
-
-// DETECTAR SCROLL Y HACER CRECER EL MENÚ CUANDO BAJAMOS
-
-// Nombre de la clase en CSS que hará crecer al menú
-// const desktop = 'desktop';
-
-// Acceder al menú
-// const main_nav_bar = document.getElementById('main_nav_bar');
-
-// Evento de scroll sobre la ventana
-// window.addEventListener('scroll', showVerticalScroll);
-
-// function showVerticalScroll() {
-//     // Detectar el scroll actual
-//     let vertical_scroll = window.pageYOffset;
-
-//     // Si el scroll actual está entre 0 y 120, dejar la apariencia original del menú
-//     if(window.innerWidth > 700) {
-//         if (vertical_scroll >= 0 && vertical_scroll < 120) {
-//             main_nav_bar.style.width = '80%';
-//             main_nav_bar.classList.remove(desktop);
-//         } // Si el scroll es mayor a 120, agregar la clase al menú para que cambie de apariencia
-//         else if (vertical_scroll > 120) {
-//             main_nav_bar.style.width = '100%';
-//             main_nav_bar.classList.add(desktop);
-//         }
-//     } else {
-//         main_nav_bar.classList.remove(desktop);
-//     }
-// }

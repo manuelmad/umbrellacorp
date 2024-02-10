@@ -24,11 +24,6 @@ header {
     visibility: visible;
 }
 
-/* .nav-bar-container .main-menu ul li a {
-    font-size: var(--md);
-} */
-
-
 .main-nav-bar .logo-container:before {
     top: 0;
     left: -10px;
@@ -40,7 +35,6 @@ header {
     background: var(--palid-red);
     position: absolute;
     border-right: 3px solid #181818;
-    /* transition: 400ms ease; */
     z-index: 100000;
 }
 
@@ -58,8 +52,6 @@ header {
     transform: skewX(-10deg);
     background: var(--nav-left-borders);
     position: absolute;
-    /* border-right: 3px solid #181818; */
-    /* transition: 400ms ease; */
     z-index: 100000;
 }
 
@@ -77,8 +69,6 @@ header {
     transform: skewX(-10deg);
     background: var(--nav-left-borders);
     position: absolute;
-    /* border-right: 3px solid #181818; */
-    /* transition: 400ms ease; */
     z-index: 100000;
 }
 
@@ -96,8 +86,6 @@ header {
     transform: skewX(-10deg);
     background: var(--nav-left-borders);
     position: absolute;
-    /* border-right: 3px solid #181818; */
-    /* transition: 400ms ease; */
     z-index: 100000;
 }
 
@@ -115,8 +103,6 @@ header {
     transform: skewX(-10deg);
     background: var(--nav-left-borders);
     position: absolute;
-    /* border-right: 3px solid #181818; */
-    /* transition: 400ms ease; */
     z-index: 100000;
 }
 
@@ -134,8 +120,6 @@ header {
     transform: skewX(-10deg);
     background: var(--nav-left-borders);
     position: absolute;
-    /* border-right: 3px solid #181818; */
-    /* transition: 400ms ease; */
     z-index: 100000;
 }
 
@@ -153,24 +137,8 @@ header {
     transform: skewX(-10deg);
     background: var(--nav-left-borders);
     position: absolute;
-    /* border-right: 3px solid #181818; */
-    /* transition: 400ms ease; */
     z-index: 100000;
 }
-
-/* .nav-bar-container .main-menu .list-item6:after {
-    top: 0;
-    right: -0.5rem;
-    display: inline-block;
-    content: "";
-    width: 0.9rem;
-    height: 100%;
-    transform: skewX(-10deg);
-    background: var(--background-black);
-    position: absolute;
-    border-right: 3px solid var(--nav-left-borders);
-    z-index: 100000;
-} */
 
 .nav-bar-container .main-menu .list-item7 {
     position: relative;
@@ -186,8 +154,6 @@ header {
     transform: skewX(-10deg);
     background: var(--nav-left-borders);
     position: absolute;
-    /* border-right: 3px solid #181818; */
-    /* transition: 400ms ease; */
     z-index: 100000;
 }
 
@@ -202,18 +168,12 @@ header {
     background: var(--background-black);
     position: absolute;
     border-right: 3px solid var(--nav-left-borders);
-    /* transition: 400ms ease; */
     z-index: 100000;
 }
 
 .dropdown-menu-container {
     display: none;
 }
-
-
-/* .nav-bar-container svg {
-    visibility: hidden;
-} */
 
 .hero {
     position: relative;
@@ -241,15 +201,6 @@ header {
     padding-left: 7rem;
     padding-right: 7rem;
 }
-
-/* .who .title-container h2:before,
-.trends .title-container h2:before,
-.gamer-tips .title-container h2:before,
-.launches .title-container h2:before,
-.notifications .title-container h2:before,
-.us .title-container h2:before, .tournaments .title-container h2:before, .apps .title-container h2:before {
-    left: 8.5rem;
-} */
 
 .trending-articles__container, .gamer-tips__container, .launches-articles__container, .notifications-articles__container, .us-articles__container/*, .tournaments-articles__container*/, .apps-articles__container {
     width: 100rem;

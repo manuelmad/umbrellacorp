@@ -113,12 +113,6 @@ header a svg:hover {
     z-index: 2;
 }
 
-/* .desktop {
-    width: 100%;
-    margin: 0;
-    padding: 0 11.15rem 0;
-} */
-
 .main-nav-bar img {
     width: 6.59rem;
     height: 6rem;
@@ -182,11 +176,9 @@ header a svg:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 1rem; */
 }
 
 /* Dropdown Menu */
-
 nav #dropdown-list {
     position: absolute;
     top: 6rem;
@@ -227,7 +219,6 @@ nav #dropdown-list {
 .hero {
     width: 100%;
     min-height: 18.1rem;
-    /* max-height: 64.2rem; */
     text-align: center;
     background-color: var(--background-sections);
 }
@@ -236,7 +227,6 @@ nav #dropdown-list {
     overflow: hidden;
     width: 100%;
     min-height: 18.1rem;
-    /* max-height: 64.2rem; */
 }
 
 .hero .slider-container ul {
@@ -244,16 +234,12 @@ nav #dropdown-list {
 	padding: 0;
 	width: 400%;
     min-height: 18.1rem;
-    /* max-height: 64.2rem; */
-
 	animation: cambio 15s infinite alternate linear;
 }
 
 .hero .slider-container li {
 	width: 100%;
     min-height: 18.1rem;
-    /* max-height: 64.2rem; */
-
 	list-style: none;
 }
 
@@ -270,7 +256,6 @@ nav #dropdown-list {
 }
 
 .title-container {
-    /* width: 100%; */
     width: 30rem;
     display: flex;
     height: 6rem;
@@ -279,7 +264,6 @@ nav #dropdown-list {
 }
 
 /* QUIÉNES SOMOS */
-
 .who .title-container h2 {
     background-color: var(--red-notifications);
     color: var(--white);
@@ -329,13 +313,11 @@ nav #dropdown-list {
 
 .who-1 .img1-container img {
     width: 100%;
-    /* height: 20rem; */
     transition: 0.8s ease all;
 }
 
 .who-1 .img1-container img:hover {
     width: 120%;
-    /* height: 30rem; */
 }
 
 .who-1 h3 {
@@ -357,7 +339,6 @@ nav #dropdown-list {
 }
 
 /* TENDENCIAS */
-
 .trends .title-container h2 {
     background-color: var(--planeta-geek-celeste);
     color: var(--black);
@@ -389,13 +370,11 @@ nav #dropdown-list {
 
 .trends .intro-container {
     color: var(--white);
-    /* width: 100%; */
     width: 30rem;
     color: var(--white);
     font-weight: 300;
     margin: 4rem auto 0;
     font-size: var(--md);
-    /* padding: 4rem 2rem 0; */
     line-height: 2.5rem;
 }
 
@@ -415,17 +394,16 @@ nav #dropdown-list {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--white);
 }
 
 .trend-1 .img1-container img {
     width: 100%;
-    /* height: 20rem; */
     transition: 0.8s ease all;
 }
 
 .trend-1 .img1-container img:hover {
     width: 120%;
-    /* height: 30rem; */
 }
 
 .trend-2 .img2-container {
@@ -435,17 +413,16 @@ nav #dropdown-list {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--white);
 }
 
 .trend-2 .img2-container img {
     width: 100%;
-    /* height: 20rem; */
     transition: 0.8s ease all;
 }
 
 .trend-2 .img2-container img:hover {
     width: 120%;
-    /* height: 30rem; */
 }
 
 .trend-3 .img3-container {
@@ -455,17 +432,16 @@ nav #dropdown-list {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #4566ff;
 }
 
 .trend-3 .img3-container img {
     width: 100%;
-    /* height: 20rem; */
     transition: 0.6s ease all;
 }
 
 .trend-3 .img3-container img:hover {
     width: 120%;
-    /* height: 30rem; */
 }
 
 .trend-4 .img4-container {
@@ -475,17 +451,16 @@ nav #dropdown-list {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--white);
 }
 
 .trend-4 .img4-container img {
     width: 100%;
-    /* height: 20rem; */
     transition: 0.6s ease all;
 }
 
 .trend-4 .img4-container img:hover {
     width: 120%;
-    /* height: 30rem; */
 }
 
 .trend-1 h3, .trend-2 h3, .trend-3 h3, .trend-4 h3 {
@@ -507,7 +482,6 @@ nav #dropdown-list {
 }
 
 /* GAMER TIPS */
-
 .gamer-tips .title-container h2 {
     background-color: var(--planeta-geek-purple);
     color: var(--white);
@@ -544,7 +518,6 @@ nav #dropdown-list {
     font-weight: 300;
     margin: 4rem auto 0;
     font-size: var(--md);
-    /* padding: 0 2rem 0; */
     line-height: 2.5rem;
 }
 
@@ -563,17 +536,16 @@ nav #dropdown-list {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--white);
 }
 
 .tip-1 .img1-container img {
     width: 90%;
-    /* height: 20rem; */
     transition: 0.6s ease all;
 }
 
 .tip-1 .img1-container img:hover {
     width: 110%;
-    /* height: 30rem; */
 }
 
 .tip-2 .img2-container {
@@ -583,17 +555,16 @@ nav #dropdown-list {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #e6e6e6;
 }
 
 .tip-2 .img2-container img {
     width: 90%;
-    /* height: 20rem; */
     transition: 0.6s ease all;
 }
 
 .tip-2 .img2-container img:hover {
     width: 110%;
-    /* height: 30rem; */
 }
 
 .tip-3 .img3-container {
@@ -603,17 +574,16 @@ nav #dropdown-list {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #e70013;
 }
 
 .tip-3 .img3-container img {
     width: 90%;
-    /* height: 20rem; */
     transition: 0.6s ease all;
 }
 
 .tip-3 .img3-container img:hover {
     width: 110%;
-    /* height: 30rem; */
 }
 
 .tip-1 h3, .tip-2 h3, .tip-3 h3  {
@@ -636,7 +606,6 @@ nav #dropdown-list {
 
 
 /* LAUNCHES */
-
 .launches .title-container h2 {
     background-color: var(--launches-fucsia);
     color: var(--white);
@@ -685,13 +654,11 @@ nav #dropdown-list {
 
 .launch-1 .img1-container img {
     width: 100%;
-    /* height: 20rem; */
     transition: 0.6s ease all;
 }
 
 .launch-1 .img1-container img:hover {
     width: 120%;
-    /* height: 30rem; */
 }
 
 .launch-2 .img2-container {
@@ -705,13 +672,11 @@ nav #dropdown-list {
 
 .launch-2 .img2-container img {
     width: 100%;
-    /* height: 20rem; */
     transition: 0.6s ease all;
 }
 
 .launch-2 .img2-container img:hover {
     width: 120%;
-    /* height: 30rem; */
 }
 
 .launch-3 .img3-container {
@@ -725,13 +690,11 @@ nav #dropdown-list {
 
 .launch-3 .img3-container img {
     width: 100%;
-    /* height: 20rem; */
     transition: 0.6s ease all;
 }
 
 .launch-3 .img3-container img:hover {
     width: 120%;
-    /* height: 30rem; */
 }
 
 .launch-1 h3, .launch-2 h3, .launch-3 h3 {
@@ -754,7 +717,6 @@ nav #dropdown-list {
 
 
 /* NOTIFICACIONES */
-
 .notifications .title-container h2 {
     background-color: var(--red-notifications);
     color: var(--white);
@@ -777,8 +739,6 @@ nav #dropdown-list {
     background: var(--palid-red);
     position: absolute;
     border-right: 3px solid var(--nav-left-borders);
-    /* transition: 400ms ease; */
-    /* z-index: 100000; */
 }
 
 .notifications .title-container p {
@@ -805,13 +765,11 @@ nav #dropdown-list {
 
 .notification-1 .img1-container img {
     width: 100%;
-    /* height: 20rem; */
     transition: 0.6s ease all;
 }
 
 .notification-1 .img1-container img:hover {
     width: 120%;
-    /* height: 30rem; */
 }
 
 .notification-2 .img2-container {
@@ -825,13 +783,11 @@ nav #dropdown-list {
 
 .notification-2 .img2-container img {
     width: 100%;
-    /* height: 20rem; */
     transition: 0.6s ease all;
 }
 
 .notification-2 .img2-container img:hover {
     width: 120%;
-    /* height: 30rem; */
 }
 
 .notification-3 .img3-container {
@@ -845,13 +801,11 @@ nav #dropdown-list {
 
 .notification-3 .img3-container img {
     width: 100%;
-    /* height: 20rem; */
     transition: 0.6s ease all;
 }
 
 .notification-3 .img3-container img:hover {
     width: 120%;
-    /* height: 30rem; */
 }
 
 .notification-1 h3, .notification-2 h3, .notification-3 h3 {
@@ -874,7 +828,6 @@ nav #dropdown-list {
 
 
 /* NOSOTROS */
-
 .us .title-container h2 {
     background-color: var(--planeta-geek-blue);
     color: var(--white);
@@ -923,13 +876,11 @@ nav #dropdown-list {
 
 .us-1 .img1-container img {
     width: 100%;
-    /* height: 20rem; */
     transition: 0.6s ease all;
 }
 
 .us-1 .img1-container img:hover {
     width: 120%;
-    /* height: 30rem; */
 }
 
 .us-2 .img2-container, .us-3 .img3-container {
@@ -943,13 +894,11 @@ nav #dropdown-list {
 
 .us-2 .img2-container img, .us-3 .img3-container img {
     width: 100%;
-    /* height: 20rem; */
     transition: 0.6s ease all;
 }
 
 .us-2 .img2-container img:hover, .us-3 .img3-container img:hover {
     width: 120%;
-    /* height: 30rem; */
 }
 
 .us-1 h3, .us-2 h3, .us-3 h3 {
@@ -971,7 +920,6 @@ nav #dropdown-list {
 }
 
 /* TOTNEOS */
-
 .tournaments .title-container h2 {
     background-color: var(--planeta-geek-yellow);
     color: var(--black);
@@ -1020,13 +968,11 @@ nav #dropdown-list {
 
 .tournaments-1 .img1-container img {
     width: 100%;
-    /* height: 20rem; */
     transition: 0.6s ease all;
 }
 
 .tournaments-1 .img1-container img:hover {
     width: 120%;
-    /* height: 30rem; */
 }
 
 .tournaments-1 h3 {
@@ -1054,7 +1000,6 @@ nav #dropdown-list {
 }
 
 /* APLICACIONES */
-
 .apps .title-container h2 {
     background-color: var(--planeta-geek-green);
     color: var(--black);
@@ -1122,13 +1067,11 @@ nav #dropdown-list {
 
 .apps-2 .img2-container img, .apps-3 .img3-container img {
     width: 100%;
-    /* height: 20rem; */
     transition: 0.6s ease all;
 }
 
 .apps-2 .img2-container img:hover, .apps-3 .img3-container img:hover {
     width: 120%;
-    /* height: 30rem; */
 }
 
 .apps-1 h3, .apps-2 h3, .apps-3 h3 {
@@ -1156,7 +1099,6 @@ nav #dropdown-list {
 }
 
 /* GALERÍA */
-
 .galery {
     width: 100%;
     min-height: 8rem;
@@ -1190,7 +1132,6 @@ nav #dropdown-list {
 
 
 /* FOOTER */
-
 footer {
     width: 100%;
     padding-top: 8rem;
@@ -1246,7 +1187,6 @@ footer section {
     color: var(--vivid-red);
     margin-right: 1rem;
     border-radius: 0.3rem;
-    /* text-align: center; */
     align-items: center;
     justify-content: center;
     transition: 0.6s ease all;
@@ -1292,7 +1232,6 @@ footer section {
     background: var(--palid-red);
     position: absolute;
     border-right: 3px solid var(--nav-left-borders);
-    /* transition: 400ms ease; */
     z-index: 100000;
 }
 
@@ -1347,7 +1286,6 @@ footer section {
 }
 
 /* ANIMACIONES */
-
 @keyframes cambio {
 	0% {margin-left: 0;}
 	20% {margin-left: 0;}
